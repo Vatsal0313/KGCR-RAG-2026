@@ -1,10 +1,5 @@
 # Knowledge Graph Construction — Models & Benchmarks
 
-Reference notes for KGCR-RAG-2026. Years are the first public release (arXiv preprint or
-conference publication, whichever came first).
-
----
-
 ## 1. Models & Systems
 
 ### 1.1 LLM-based extraction pipelines
