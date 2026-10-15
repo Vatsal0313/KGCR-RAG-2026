@@ -4,9 +4,6 @@ Materials for the three pods (P1 Construction, P2 Graph & Reasoning, P3 RAG & Ev
 Each pod has a **Must-read** set (finish in weeks 1–2), an **Extended** set (reference during
 implementation), and the **datasets** that pod is responsible for loading.
 
-> Verify exact arXiv IDs, venues and years against the official page before citing in the
-> final report. Links are to canonical code/data repos where available.
-
 ---
 
 ## 0. Everyone reads these first (week 1)
@@ -14,13 +11,8 @@ implementation), and the **datasets** that pod is responsible for loading.
 | # | Paper | Year | Why |
 |---|---|---|---|
 | 0.1 | Pan et al., *Unifying Large Language Models and Knowledge Graphs: A Roadmap* (IEEE TKDE) | 2024 | Single best framing of the whole LLM↔KG space. Defines the vocabulary the team will use. |
-| 0.2 | Zhong et al., *A Comprehensive Survey on Automatic Knowledge Graph Construction* (ACM CSUR) | 2023 | Taxonomy of construction pipelines; shows where our spaCy baseline sits. |
-| 0.3 | Peng et al., *Graph Retrieval-Augmented Generation: A Survey* | 2024 | Covers the P3 half and how it depends on P1/P2 output quality. |
-| 0.4 | Mihindukulasooriya et al., *Text2KGBench* (ISWC) | 2023 | Our primary intrinsic benchmark — everyone must understand its metrics. |
-| 0.5 | Artstein & Poesio, *Inter-Coder Agreement for Computational Linguistics* (CL) | 2008 | Required before the week 2–3 annotation sprint. Read §2–4 only. |
-
-**Deliverable:** each student writes a 1-page summary of one of 0.1–0.4 and presents it in the
-week 2 meeting. Seven students, four papers — doubles are fine and produce useful disagreement.
+| 0.2 | Peng et al., *Graph Retrieval-Augmented Generation: A Survey* | 2024 | Covers the P3 half and how it depends on P1/P2 output quality. |
+| 0.3 | Mihindukulasooriya et al., *Text2KGBench* (ISWC) | 2023 | Our primary intrinsic benchmark — everyone must understand its metrics. |
 
 ---
 
@@ -28,8 +20,9 @@ week 2 meeting. Seven students, four papers — doubles are fine and produce use
 
 ### Must-read
 
-| # | Paper | Year | Venue | Relevance |
+| # | Paper | Year | Venue | Relevance | Soruce |
 |---|---|---|---|---|
+| 1.1 | Zhong et al., *A Comprehensive Survey on Automatic Knowledge Graph Construction* (ACM CSUR) | 2023 | Taxonomy of construction pipelines; shows where our spaCy baseline sits. | <https://dl.acm.org/doi/pdf/10.1145/3618295>
 | 1.1 | Huguet Cabot & Navigli, *REBEL: Relation Extraction By End-to-end Language generation* | 2021 | EMNLP Findings | The supervised baseline to beat. Read the linearization trick. |
 | 1.2 | Zaratiana et al., *GLiNER: Generalist Model for NER using Bidirectional Transformer* | 2024 | NAACL | S1's main model. Zero-shot, CPU-capable. |
 | 1.3 | Boylan et al., *GLiREL: Generalist Model for Zero-Shot Relation Extraction* | 2024 | NAACL 2025 | S1's relation half. Pairs directly with 1.2. |
@@ -40,13 +33,10 @@ week 2 meeting. Seven students, four papers — doubles are fine and produce use
 
 | # | Paper | Year | Note |
 |---|---|---|---|
-| 1.6 | Guo et al., *LightRAG* | 2024 | Cheaper GraphRAG; read the cost comparison table |
-| 1.7 | Lairgi et al., *iText2KG* (WISE) | 2024 | Incremental construction + built-in entity resolution |
-| 1.8 | Mo et al., *KGGen* | 2025 | Clustering-based canonicalization; ships MINE benchmark |
-| 1.9 | Zhou et al., *UniversalNER / Targeted Distillation* (ICLR) | 2024 | How to distill GPT-quality NER into a small local model |
-| 1.10 | Wang et al., *InstructUIE* | 2023 | Instruction-tuned universal IE framing |
-| 1.11 | Wei et al., *ChatIE: Zero-shot IE via Chatting with ChatGPT* | 2023 | Multi-turn prompting decomposition — cheap trick, works well |
-| 1.12 | Wadhwa et al., *Revisiting Relation Extraction in the era of LLMs* (ACL) | 2023 | Sobering: LLMs underperform fine-tuned models on standard RE |
+| 1.1 | Lairgi et al., *iText2KG* (WISE) | 2024 | Incremental construction + built-in entity resolution |
+| 1.2 | Mo et al., *KGGen* | 2025 | Clustering-based canonicalization; ships MINE benchmark |
+| 1.3 | Zhou et al., *UniversalNER / Targeted Distillation* (ICLR) | 2024 | How to distill GPT-quality NER into a small local model |
+| 1.4 | Wadhwa et al., *Revisiting Relation Extraction in the era of LLMs* (ACL) | 2023 | Sobering: LLMs underperform fine-tuned models on standard RE |
 
 ### P1 datasets
 
