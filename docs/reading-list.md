@@ -1,9 +1,4 @@
-# Reading List & Datasets per Pod
-
-Materials for the three pods (P1 Construction, P2 Graph & Reasoning, P3 RAG & Evaluation).
-Each pod has a **Must-read** set (finish in weeks 1–2), an **Extended** set (reference during
-implementation), and the **datasets** that pod is responsible for loading.
-
+# Reading List & Datasets 
 ---
 
 ## 0. Everyone reads these first
@@ -12,7 +7,6 @@ implementation), and the **datasets** that pod is responsible for loading.
 |---|---|---|---|
 | 0.1 | Pan et al., *Unifying Large Language Models and Knowledge Graphs: A Roadmap* | 2024 | <https://arxiv.org/pdf/2306.08302> |
 | 0.2 | Lewis et al., *Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks* | 2020 | <https://dl.acm.org/doi/pdf/10.5555/3495724.3496517> |
-
 ---
 
 ## P1 — KG Construction from Text

@@ -1,1 +1,28 @@
-# KGCR-RAG-2026
+# Welcome to the KG Construction, Reasoning, and RAG Project Group (KGR-RAG PG)
+
+## Next meeting:
+- Thursday, 15 October 2026, PG Meeting, at room FU.519 from 15:00 - 17:00.
+
+## KGCR-RAG PG Two-Weekly Tasks Summary
+
+Visit this [link](https://github.com/dice-group/KGCR-RAG-2026/blob/main/regular-tasks.md) for the weekly task for the details
+
+## Communication platform and tools
+Communication platforms and tools that can be used in this PG:
+
+1. Elements messaging
+   Real-time chat for day-to-day coordination and quick questions. We can ask for the invitation to join the group chat.
+   
+   → [Join the Elements group](https://element.cs.uni-paderborn.de/)
+
+2. Sciebo cloud storage
+   Shared, versioned space for project files and documents. Use it to upload, review, and collaborate on materials.
+
+   → [Open the Sciebo folder](https://uni-paderborn.sciebo.de/)
+
+3. Weekly report form
+  Submit your report at the start of each week. Share progress, blockers, and planned next steps so we can prepare for the meeting.
+
+   Please complete the form before the weekly meeting.
+
+   → [Fill out the weekly report form](https://umfragen.uni-paderborn.de/index.php/871557)
