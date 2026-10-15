@@ -11,14 +11,13 @@ implementation), and the **datasets** that pod is responsible for loading.
 | # | Paper | Year | Source |
 |---|---|---|---|
 | 0.1 | Pan et al., *Unifying Large Language Models and Knowledge Graphs: A Roadmap* (IEEE TKDE) | 2024 | |
-| 0.2 | Peng et al., *Graph Retrieval-Augmented Generation: A Survey* | 2024 | |
-| 0.3 | Lewis et al., *Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks* | 2020 | <https://dl.acm.org/doi/pdf/10.5555/3495724.3496517> |
+| 0.2 | Lewis et al., *Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks* | 2020 | <https://dl.acm.org/doi/pdf/10.5555/3495724.3496517> |
 
 ---
 
 ## P1 — KG Construction from Text
 
-### Must-read
+### Papers
 
 | # | Paper | Year | Source |
 |---|---|---|---|
@@ -38,13 +37,14 @@ implementation), and the **datasets** that pod is responsible for loading.
 
 ## P2 — KG Reasoning and RAG 
 
-### Must-read — S5 (retrieval + generation)
+### Papers 
 
 | # | Paper | Year | Source |
 |---|---|---|---|
-| 3.1 | Lewis et al., *Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks* | 2020 | NeurIPS | The origin paper. Non-negotiable. |
-| 3.3 | Edge et al., *GraphRAG* | 2024 | MSR | Shared with P1 — read the query-time half |
-| 3.4 | He et al., *G-Retriever: RAG for Textual Graph Understanding and QA* | 2024 | NeurIPS | Subgraph retrieval as a Steiner-tree problem. Most directly reusable. |
+| 2.1 | Tang et al., *RulE: Knowledge Graph Reasoning with Rule Embedding* | 2024 | <https://aclanthology.org/2024.findings-acl.256.pdf> |
+| 2.2 | Edge et al., *GraphRAG* | 2024 | <https://arxiv.org/pdf/2404.16130> |
+| 2.3 | He et al., *G-Retriever: RAG for Textual Graph Understanding and QA* | 2024 | <https://proceedings.neurips.cc/paper_files/paper/2024/file/efaf1c9726648c8ba363a5c927440529-Paper-Conference.pdf> |
+| 2.3 | Shami et al., *Fact Verification in Knowledge Graphs Using LLMs* | 2024 | <https://dl.acm.org/doi/pdf/10.1145/3726302.3730142> |
 
 ### Must-read — S6 (evaluation)
 
@@ -66,32 +66,3 @@ implementation), and the **datasets** that pod is responsible for loading.
 | CRAG | 2024 | Robustness to noisy retrieval | <https://github.com/facebookresearch/CRAG> |
 | STaRK | 2024 | If we add a product/biomed domain | <https://github.com/snap-stanford/stark> |
 | UltraDomain | 2024 | Used by LightRAG/GraphRAG — needed for fair comparison | released with LightRAG |
-
-**P3 week-1 concrete task:** build the eval harness against **stub** graph data from S7. Report
-vanilla DPR-RAG numbers on MuSiQue before any KG exists. That is the ablation baseline.
-
----
-
-## Shared infrastructure the pods should not rebuild
-
-| Need | Use | Not |
-|---|---|---|
-| Link prediction baselines | **PyKEEN** | custom TransE |
-| Entity/relation models | **HuggingFace** + GLiNER/GLiREL/ReLiK repos | from scratch |
-| Vector store | **FAISS** or **Qdrant** | custom index |
-| Graph store | **Neo4j** (Docker) or **Apache Jena Fuseki** | pickled networkx |
-| RAG eval | **RAGAS** | hand-rolled LLM-judge prompts |
-| Experiment tracking | **Weights & Biases** or a CSV + git | screenshots in a chat group |
-
----
-
-## Suggested reading schedule
-
-| Week | P1 | P2 | P3 |
-|---|---|---|---|
-| 1 | 0.1–0.4, 1.1–1.3 | 0.1–0.4, 2.1–2.2 | 0.1–0.4, 3.1–3.2 |
-| 2 | 1.4–1.5, 1.12 | 2.5, 2.7, SHACL | 3.3–3.5, 3.7–3.8 |
-| 3 | 1.6–1.8 | 2.3–2.4, 2.8–2.9 | 3.9–3.11 |
-| 4+ | as needed | as needed | as needed |
-
-One paper per pod per week after week 3, presented in the Thursday sync in 10 minutes.
