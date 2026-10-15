@@ -10,7 +10,7 @@ implementation), and the **datasets** that pod is responsible for loading.
 
 | # | Paper | Year | Source |
 |---|---|---|---|
-| 0.1 | Pan et al., *Unifying Large Language Models and Knowledge Graphs: A Roadmap* (IEEE TKDE) | 2024 | |
+| 0.1 | Pan et al., *Unifying Large Language Models and Knowledge Graphs: A Roadmap* (IEEE TKDE) | 2024 | <https://arxiv.org/pdf/2306.08302> |
 | 0.2 | Lewis et al., *Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks* | 2020 | <https://dl.acm.org/doi/pdf/10.5555/3495724.3496517> |
 
 ---
@@ -44,7 +44,7 @@ implementation), and the **datasets** that pod is responsible for loading.
 | 2.1 | Tang et al., *RulE: Knowledge Graph Reasoning with Rule Embedding* | 2024 | <https://aclanthology.org/2024.findings-acl.256.pdf> |
 | 2.2 | Edge et al., *GraphRAG* | 2024 | <https://arxiv.org/pdf/2404.16130> |
 | 2.3 | He et al., *G-Retriever: RAG for Textual Graph Understanding and QA* | 2024 | <https://proceedings.neurips.cc/paper_files/paper/2024/file/efaf1c9726648c8ba363a5c927440529-Paper-Conference.pdf> |
-| 2.3 | Shami et al., *Fact Verification in Knowledge Graphs Using LLMs* | 2024 | <https://dl.acm.org/doi/pdf/10.1145/3726302.3730142> |
+| 2.3 | Shami et al., *Fact Verification in Knowledge Graphs Using LLMs* | 2025 | <https://dl.acm.org/doi/pdf/10.1145/3726302.3730142> |
 
 ### Must-read — S6 (evaluation)
 
