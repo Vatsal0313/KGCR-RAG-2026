@@ -30,7 +30,7 @@ implementation), and the **datasets** that pod is responsible for loading.
 ### P1 datasets
 
 | Dataset | Year | Source |
-|---|---|---|---|
+|---|---|---|
 | **Text2KGBench** | 2023  | <https://github.com/cenguix/Text2KGBench> |
 | **bigs-unsupervised** | 2026 |  <https://github.com/MaxOjeda/bigs-unsupervised/> |
 
