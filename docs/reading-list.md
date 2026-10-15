@@ -8,11 +8,11 @@ implementation), and the **datasets** that pod is responsible for loading.
 
 ## 0. Everyone reads these first
 
-| # | Paper | Year | Why |
+| # | Paper | Year | Source |
 |---|---|---|---|
-| 0.1 | Pan et al., *Unifying Large Language Models and Knowledge Graphs: A Roadmap* (IEEE TKDE) | 2024 | Single best framing of the whole LLM↔KG space. Defines the vocabulary the team will use. |
-| 0.2 | Peng et al., *Graph Retrieval-Augmented Generation: A Survey* | 2024 | Covers the P3 half and how it depends on P1/P2 output quality. |
-| 0.3 | Mihindukulasooriya et al., *Text2KGBench* (ISWC) | 2023 | Our primary intrinsic benchmark — everyone must understand its metrics. |
+| 0.1 | Pan et al., *Unifying Large Language Models and Knowledge Graphs: A Roadmap* (IEEE TKDE) | 2024 | |
+| 0.2 | Peng et al., *Graph Retrieval-Augmented Generation: A Survey* | 2024 | |
+| 0.3 | Lewis et al., *Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks* | 2020 | <https://dl.acm.org/doi/pdf/10.5555/3495724.3496517> |
 
 ---
 
@@ -36,70 +36,15 @@ implementation), and the **datasets** that pod is responsible for loading.
 
 ---
 
-## P2 — Graph & Reasoning (S3, S4)
-
-### Must-read — S3 (canonicalization + persistence)
-
-| # | Paper | Year | Venue | Relevance |
-|---|---|---|---|---|
-| 2.1 | Vashishth et al., *CESI: Canonicalizing Open Knowledge Bases using Embeddings and Side Information* | 2018 | WWW | The canonical (pun intended) open-KB canonicalization method |
-| 2.2 | Wu et al., *Scalable Zero-shot Entity Linking with Dense Entity Retrieval* (BLINK) | 2020 | EMNLP | Bi-encoder + cross-encoder EL; the practical default |
-| 2.3 | De Cao et al., *Autoregressive Entity Retrieval* (GENRE) | 2021 | ICLR | Generative EL; constrained decoding over entity names |
-| 2.4 | Li et al., *Deep Entity Matching with Pre-Trained Language Models* (Ditto) | 2020 | VLDB | Entity resolution from the DB community — more practical than the NLP framing |
-
-### Must-read — S4 (reasoning)
-
-| # | Paper | Year | Venue | Relevance |
-|---|---|---|---|---|
-| 2.5 | Vashishth et al., *CompGCN* | 2020 | ICLR | Baseline multi-relational GNN |
-| 2.6 | Zhu et al., *Neural Bellman-Ford Networks* | 2021 | NeurIPS | Path-based, inductive, interpretable |
-| 2.7 | Galkin et al., *Towards Foundation Models for KG Reasoning* (ULTRA) | 2023 | ICLR 2024 | Zero-shot transfer — works on **our** graph with no training |
-| 2.8 | Luo et al., *Reasoning on Graphs (RoG): Faithful and Interpretable LLM Reasoning* | 2023 | ICLR 2024 | Plan-then-retrieve over KG paths; direct input to P3 |
-| 2.9 | Sun et al., *Think-on-Graph* | 2023 | ICLR 2024 | LLM agent walking the KG; the main alternative to 2.8 |
-
-### Extended / specs
-
-| # | Resource | Note |
-|---|---|---|
-| 2.10 | W3C **SHACL** spec | Constraint validation — this is how S4 proves the graph is consistent |
-| 2.11 | W3C **OWL 2 RL** profile | Rule-based entailment that is actually tractable |
-| 2.12 | Ren et al., *Query2Box* (ICLR 2020) | Complex logical queries in embedding space |
-| 2.13 | Ji et al., *A Survey on Knowledge Graphs: Representation, Acquisition, Applications* (TNNLS 2022) | Broad reference |
-| 2.14 | Neo4j Graph Data Science docs / Apache Jena docs | Pick one and read the modelling guide before designing the schema |
-
-### P2 datasets
-
-| Dataset | Year | Use | Source |
-|---|---|---|---|
-| **CESI ReVerb45K / Base / Ambiguous** | 2018 | Canonicalization eval — directly measures S3's module | <https://github.com/malllabiisc/cesi> |
-| **AIDA-CoNLL** | 2011 | Entity linking accuracy | via GERBIL <http://gerbil.aksw.org/> |
-| ZESHEL | 2019 | Zero-shot EL, unseen domains | <https://github.com/lajanugen/zeshel> |
-| OPIEC | 2019 | Large open-IE triple corpus for canonicalization at scale | <https://www.uni-mannheim.de/dws/research/resources/opiec/> |
-| **FB15k-237** | 2015 | Link prediction sanity check | standard, bundled with PyKEEN |
-| **WN18RR** | 2018 | Link prediction, leakage-free | standard, bundled with PyKEEN |
-| CoDEx (s/m/l) | 2020 | Harder LP with real negatives | <https://github.com/tsafavi/codex> |
-| ILPC 2022 | 2022 | Inductive LP — matches our "new documents arrive" setting | <https://github.com/pykeen/ilpc2022> |
-
-**Tooling:** use **PyKEEN** for link prediction baselines rather than reimplementing. ULTRA
-ships pretrained checkpoints — run those before training anything.
-
-**P2 week-1 concrete task:** stand up Neo4j in Docker, define the `GraphStore` ABC with S7,
-and load the toy graph from [output.json](output.json) into it.
-
----
-
-## P3 — RAG & Evaluation (S5, S6)
+## P2 — KG Reasoning and RAG 
 
 ### Must-read — S5 (retrieval + generation)
 
-| # | Paper | Year | Venue | Relevance |
-|---|---|---|---|---|
+| # | Paper | Year | Source |
+|---|---|---|---|
 | 3.1 | Lewis et al., *Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks* | 2020 | NeurIPS | The origin paper. Non-negotiable. |
-| 3.2 | Karpukhin et al., *Dense Passage Retrieval* (DPR) | 2020 | EMNLP | The vector-RAG baseline we must beat |
 | 3.3 | Edge et al., *GraphRAG* | 2024 | MSR | Shared with P1 — read the query-time half |
 | 3.4 | He et al., *G-Retriever: RAG for Textual Graph Understanding and QA* | 2024 | NeurIPS | Subgraph retrieval as a Steiner-tree problem. Most directly reusable. |
-| 3.5 | Gutiérrez et al., *HippoRAG* | 2024 | NeurIPS | Personalized PageRank over a KG for multi-hop. Strong, cheap. |
-| 3.6 | Asai et al., *Self-RAG* | 2023 | ICLR 2024 | Retrieval with self-critique — the quality ceiling trick |
 
 ### Must-read — S6 (evaluation)
 
@@ -111,17 +56,7 @@ and load the toy graph from [output.json](output.json) into it.
 | 3.10 | Saad-Falcon et al., *ARES: Automated Evaluation Framework for RAG* | 2024 | NAACL | Adds confidence intervals; use for the final table |
 | 3.11 | Liu et al., *Lost in the Middle* | 2024 | TACL | Why context ordering changes results — affects every number S6 reports |
 
-### Extended
-
-| # | Paper | Year | Note |
-|---|---|---|---|
-| 3.12 | Gao et al., *RAG for LLMs: A Survey* | 2023 | Navigational map of the design space |
-| 3.13 | Yang et al., *HotpotQA* (EMNLP) | 2018 | Easier warm-up multi-hop set |
-| 3.14 | Yang et al., *CRAG: Comprehensive RAG Benchmark* | 2024 | KDD Cup 2024; realistic noisy retrieval |
-| 3.15 | Wu et al., *STaRK* | 2024 | Retrieval over semi-structured KGs |
-| 3.16 | Jin et al., *Long-context LLMs Meet RAG* | 2024 | Needed to answer "why not just use a 1M-token context?" |
-
-### P3 datasets
+### P2 datasets
 
 | Dataset | Year | Use | Source |
 |---|---|---|---|
