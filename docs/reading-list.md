@@ -45,3 +45,5 @@
 | 2.4 | Shami et al., *Fact Verification in Knowledge Graphs Using LLMs* | 2025 | <https://dl.acm.org/doi/pdf/10.1145/3726302.3730142> |
 | 2.5 | Sanmartín, Diego., *KG-RAG: Bridging the Gap between Knowledge and Creativity* | 2025 | <https://arxiv.org/pdf/2405.12035> |
 | 2.6 | Firmansyah et al., *ANTS: Abstractive Entity Summarization in Knowledge Graphs* | 2025 | <https://dl.acm.org/doi/10.1007/978-3-031-94575-5_8> |
+| 2.7 | Wang et al., *Mixture-of-Experts Knowledge Graph Retrieval-Augmented Generation for Multi-Agent LLM-based Recommendation* | 2026 | <https://dl.acm.org/doi/10.1145/3770855.3817630> |
+
