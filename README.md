@@ -5,7 +5,7 @@
 
 ## KGCR-RAG PG Two-Weekly Tasks Summary
 
-Visit this [link](https://github.com/dice-group/KGCR-RAG-2026/blob/main/regular-tasks.md) for the weekly task for the details
+Visit this [link](https://github.com/dice-group/KGCR-RAG-2026/blob/main/regular-tasks.md) for the regular task for the details
 
 ## Communication platform and tools
 Communication platforms and tools that can be used in this PG:
