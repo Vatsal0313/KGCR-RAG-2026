@@ -20,9 +20,9 @@ implementation), and the **datasets** that pod is responsible for loading.
 
 ### Must-read
 
-| # | Paper | Year | Venue | Relevance | Soruce |
-|---|---|---|---|---|
-| 1.1 | Zhong et al., *A Comprehensive Survey on Automatic Knowledge Graph Construction* (ACM CSUR) | 2023 | Taxonomy of construction pipelines; shows where our spaCy baseline sits. | <https://dl.acm.org/doi/pdf/10.1145/3618295>
+| # | Paper | Year | Venue | Relevance | Source |
+|---|---|---|---|---|--|
+| 1.1 | Zhong et al., *A Comprehensive Survey on Automatic Knowledge Graph Construction* (ACM CSUR) | 2023 | Taxonomy of construction pipelines; shows where our spaCy baseline sits. | <https://dl.acm.org/doi/pdf/10.1145/3618295> |
 | 1.1 | Huguet Cabot & Navigli, *REBEL: Relation Extraction By End-to-end Language generation* | 2021 | EMNLP Findings | The supervised baseline to beat. Read the linearization trick. |
 | 1.2 | Zaratiana et al., *GLiNER: Generalist Model for NER using Bidirectional Transformer* | 2024 | NAACL | S1's main model. Zero-shot, CPU-capable. |
 | 1.3 | Boylan et al., *GLiREL: Generalist Model for Zero-Shot Relation Extraction* | 2024 | NAACL 2025 | S1's relation half. Pairs directly with 1.2. |
