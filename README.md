@@ -25,4 +25,4 @@ Communication platforms and tools that can be used in this PG:
 
    Please complete the form before the weekly meeting.
 
-   → [Fill out the weekly report form](https://umfragen.uni-paderborn.de/index.php/871557)
+   → [Fill out the weekly report form](https://umfragen.uni-paderborn.de/index.php/563876?lang=en)
