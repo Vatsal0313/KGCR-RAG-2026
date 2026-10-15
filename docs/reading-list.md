@@ -6,7 +6,7 @@ implementation), and the **datasets** that pod is responsible for loading.
 
 ---
 
-## 0. Everyone reads these first (week 1)
+## 0. Everyone reads these first
 
 | # | Paper | Year | Why |
 |---|---|---|---|
@@ -16,7 +16,7 @@ implementation), and the **datasets** that pod is responsible for loading.
 
 ---
 
-## P1 — Construction (S1, S2)
+## P1 — KG Construction from Text
 
 ### Must-read
 
