@@ -2,7 +2,7 @@
 
 ## Next meeting:
 - Thursday, 29 October 2026, PG Meeting, in room FU.519 from 14:30 to 16:30.
-  (Please contact me by email if you have not received the invitation yet)
+  (Please contact me by email if you have not received the invitation to join the KGCR-RAG element chat group yet)
 
 ## KGCR-RAG PG Two-Weekly Tasks Summary
 
@@ -12,7 +12,7 @@ Visit this [link](https://github.com/dice-group/KGCR-RAG-2026/blob/main/regular-
 Communication platforms and tools that can be used in this PG:
 
 1. Elements messaging
-   Real-time chat for day-to-day coordination and quick questions. We can ask for the invitation to join the group chat.
+   Real-time chat for day-to-day coordination and quick questions. We can ask for an invitation to join the group chat.
    
    → [Join the Elements group](https://element.cs.uni-paderborn.de/)
 
