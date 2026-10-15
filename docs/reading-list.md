@@ -18,8 +18,7 @@
 | 1.1 | Zhong et al., *A Comprehensive Survey on Automatic Knowledge Graph Construction* | 2023 | <https://dl.acm.org/doi/pdf/10.1145/3618295> |
 | 1.2 | Mihindukulasooriya et al., *Text2KGBench: A Benchmark for Ontology-Driven Knowledge Graph Generation from Text* | 2023 | <https://dl.acm.org/doi/abs/10.1007/978-3-031-47243-5_14> |
 | 1.3 | chen et al., *AutoKG: Efficient Automated Knowledge Graph Generation for Language Models* | 2023 | <https://ieeexplore.ieee.org/document/10386454> |
-| 1.4 | chen et al., *OSKGC: A benchmark for Ontology Schema-based
-Knowledge Graph Construction from Text* | 2025 | <https://ceur-ws.org/Vol-4041/paper1.pdf> |
+| 1.4 | chen et al., *OSKGC: A benchmark for Ontology Schema-based Knowledge Graph Construction from Text* | 2025 | <https://ceur-ws.org/Vol-4041/paper1.pdf> |
 | 1.5 | Lermanda et al., *Evaluating Knowledge Graph Construction from Text Without Supervision* | 2026 | <https://dl.acm.org/doi/10.1007/978-3-032-25156-5_2> <https://drive.google.com/file/d/1O139AZ9FUdVBlvRUErFIo8k1OtQ6neV4/view?pli=1> |
 | 1.6 | Tiwari et al., *Ontology-Aware Prompting for Knowledge Graph Construction from Text* | 2026 | <https://ebooks.iospress.nl/volumearticle/80576> |
 
