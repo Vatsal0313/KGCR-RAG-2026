@@ -44,3 +44,4 @@
 | 2.3 | He et al., *G-Retriever: RAG for Textual Graph Understanding and QA* | 2024 | [link](https://proceedings.neurips.cc/paper_files/paper/2024/file/efaf1c9726648c8ba363a5c927440529-Paper-Conference.pdf) |
 | 2.4 | Shami et al., *Fact Verification in Knowledge Graphs Using LLMs* | 2025 | <https://dl.acm.org/doi/pdf/10.1145/3726302.3730142> |
 | 2.5 | Sanmartín, Diego., *KG-RAG: Bridging the Gap between Knowledge and Creativity* | 2025 | <https://arxiv.org/pdf/2405.12035> |
+| 2.6 | Firmansyah et al., *ANTS: Abstractive Entity Summarization in Knowledge Graphs* | 2025 | <https://dl.acm.org/doi/10.1007/978-3-031-94575-5_8> |
