@@ -44,4 +44,5 @@ implementation), and the **datasets** that pod is responsible for loading.
 | 2.1 | Tang et al., *RulE: Knowledge Graph Reasoning with Rule Embedding* | 2024 | <https://aclanthology.org/2024.findings-acl.256.pdf> |
 | 2.2 | Edge et al., *GraphRAG* | 2024 | <https://arxiv.org/pdf/2404.16130> |
 | 2.3 | He et al., *G-Retriever: RAG for Textual Graph Understanding and QA* | 2024 | <https://proceedings.neurips.cc/paper_files/paper/2024/file/efaf1c9726648c8ba363a5c927440529-Paper-Conference.pdf> |
-| 2.3 | Shami et al., *Fact Verification in Knowledge Graphs Using LLMs* | 2025 | <https://dl.acm.org/doi/pdf/10.1145/3726302.3730142> |
+| 2.4 | Shami et al., *Fact Verification in Knowledge Graphs Using LLMs* | 2025 | <https://dl.acm.org/doi/pdf/10.1145/3726302.3730142> |
+| 2.5 | Sanmartín, Diego., *KG-RAG: Bridging the Gap between Knowledge and Creativity* | 2025 | <https://arxiv.org/pdf/2405.12035> |
