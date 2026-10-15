@@ -1,7 +1,7 @@
 # Welcome to the KG Construction, Reasoning, and RAG Project Group (KGR-RAG PG)
 
 ## Next meeting:
-- Thursday, 15 October 2026, PG Meeting, at room FU.519 from 15:00 - 17:00.
+- Thursday, 29 October 2026, PG Meeting, at room FU.519 from 14:30 - 16:30.
 
 ## KGCR-RAG PG Two-Weekly Tasks Summary
 
