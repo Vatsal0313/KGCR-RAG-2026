@@ -25,33 +25,14 @@ implementation), and the **datasets** that pod is responsible for loading.
 | 1.1 | Zhong et al., *A Comprehensive Survey on Automatic Knowledge Graph Construction* (ACM CSUR) | 2023 | <https://dl.acm.org/doi/pdf/10.1145/3618295> |
 | 1.1 | Mihindukulasooriya et al., *Text2KGBench: A Benchmark for Ontology-Driven Knowledge Graph Generation from Text* | 2023 | <https://dl.acm.org/doi/abs/10.1007/978-3-031-47243-5_14> |
 | 1.2 | Tiwari et al., *Ontology-Aware Prompting for Knowledge Graph Construction from Text* | 2026 | <https://ebooks.iospress.nl/volumearticle/80576> |
-| 1.3 | Boylan et al., *GLiREL: Generalist Model for Zero-Shot Relation Extraction* | 2024 | |
-| 1.4 | Orlando et al., *Retrieve, Read and LinK (ReLiK)* | 2024 | |
-| 1.5 | Edge et al., *From Local to Global: A Graph RAG Approach* | 2024 | |
-
-### Extended
-
-| # | Paper | Year | Note |
-|---|---|---|---|
-| 1.1 | Lairgi et al., *iText2KG* (WISE) | 2024 | Incremental construction + built-in entity resolution |
-| 1.2 | Mo et al., *KGGen* | 2025 | Clustering-based canonicalization; ships MINE benchmark |
-| 1.3 | Zhou et al., *UniversalNER / Targeted Distillation* (ICLR) | 2024 | How to distill GPT-quality NER into a small local model |
-| 1.4 | Wadhwa et al., *Revisiting Relation Extraction in the era of LLMs* (ACL) | 2023 | Sobering: LLMs underperform fine-tuned models on standard RE |
+| 1.3 | Lermanda et al., *Evaluating Knowledge Graph Construction from Text Without Supervision* | 2026 | <https://dl.acm.org/doi/10.1007/978-3-032-25156-5_2> <https://drive.google.com/file/d/1O139AZ9FUdVBlvRUErFIo8k1OtQ6neV4/view?pli=1> |
 
 ### P1 datasets
 
-| Dataset | Year | Use in our project | Source |
+| Dataset | Year | Source |
 |---|---|---|---|
-| **SciER** | 2024 | Primary — document-level scientific entity+relation | <https://github.com/edzq/SciER> |
-| **Re-DocRED** | 2022 | Document-level triple F1; use instead of DocRED | <https://github.com/tonytan48/Re-DocRED> |
-| **Text2KGBench** | 2023 | Ontology conformance + hallucination rate | <https://github.com/cenguix/Text2KGBench> |
-| SciERC | 2018 | Smaller sanity-check set, same domain | <http://nlp.cs.washington.edu/sciIE/> |
-| WebNLG+ | 2020 | Standard comparison point vs. REBEL/UniRel | <https://gitlab.com/shimorina/webnlg-dataset> |
-| CoNLL04 | 2004 | Tiny, clean; good for unit tests | bundled in most RE toolkits |
-| CrossRE | 2022 | Domain-transfer stress test | <https://github.com/mainlp/CrossRE> |
-
-**P1 week-1 concrete task:** load SciER, run the existing spaCy extractor on it, and record
-precision/recall/F1. That number is the floor for the entire project.
+| **Text2KGBench** | 2023  | <https://github.com/cenguix/Text2KGBench> |
+| **bigs-unsupervised** | 2026 |  <https://github.com/MaxOjeda/bigs-unsupervised/> |
 
 ---
 
