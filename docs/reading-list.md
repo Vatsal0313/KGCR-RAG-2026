@@ -10,7 +10,7 @@ implementation), and the **datasets** that pod is responsible for loading.
 
 | # | Paper | Year | Source |
 |---|---|---|---|
-| 0.1 | Pan et al., *Unifying Large Language Models and Knowledge Graphs: A Roadmap* (IEEE TKDE) | 2024 | <https://arxiv.org/pdf/2306.08302> |
+| 0.1 | Pan et al., *Unifying Large Language Models and Knowledge Graphs: A Roadmap* | 2024 | <https://arxiv.org/pdf/2306.08302> |
 | 0.2 | Lewis et al., *Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks* | 2020 | <https://dl.acm.org/doi/pdf/10.5555/3495724.3496517> |
 
 ---
@@ -21,7 +21,7 @@ implementation), and the **datasets** that pod is responsible for loading.
 
 | # | Paper | Year | Source |
 |---|---|---|---|
-| 1.1 | Zhong et al., *A Comprehensive Survey on Automatic Knowledge Graph Construction* (ACM CSUR) | 2023 | <https://dl.acm.org/doi/pdf/10.1145/3618295> |
+| 1.1 | Zhong et al., *A Comprehensive Survey on Automatic Knowledge Graph Construction* | 2023 | <https://dl.acm.org/doi/pdf/10.1145/3618295> |
 | 1.1 | Mihindukulasooriya et al., *Text2KGBench: A Benchmark for Ontology-Driven Knowledge Graph Generation from Text* | 2023 | <https://dl.acm.org/doi/abs/10.1007/978-3-031-47243-5_14> |
 | 1.2 | Tiwari et al., *Ontology-Aware Prompting for Knowledge Graph Construction from Text* | 2026 | <https://ebooks.iospress.nl/volumearticle/80576> |
 | 1.3 | Lermanda et al., *Evaluating Knowledge Graph Construction from Text Without Supervision* | 2026 | <https://dl.acm.org/doi/10.1007/978-3-032-25156-5_2> <https://drive.google.com/file/d/1O139AZ9FUdVBlvRUErFIo8k1OtQ6neV4/view?pli=1> |
