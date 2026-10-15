@@ -45,24 +45,3 @@ implementation), and the **datasets** that pod is responsible for loading.
 | 2.2 | Edge et al., *GraphRAG* | 2024 | <https://arxiv.org/pdf/2404.16130> |
 | 2.3 | He et al., *G-Retriever: RAG for Textual Graph Understanding and QA* | 2024 | <https://proceedings.neurips.cc/paper_files/paper/2024/file/efaf1c9726648c8ba363a5c927440529-Paper-Conference.pdf> |
 | 2.3 | Shami et al., *Fact Verification in Knowledge Graphs Using LLMs* | 2025 | <https://dl.acm.org/doi/pdf/10.1145/3726302.3730142> |
-
-### Must-read — S6 (evaluation)
-
-| # | Paper | Year | Venue | Relevance |
-|---|---|---|---|---|
-| 3.7 | Trivedi et al., *MuSiQue: Multihop Questions via Single-hop Question Composition* | 2022 | TACL | Our hardest extrinsic benchmark; read how shortcuts are blocked |
-| 3.8 | Ho et al., *2WikiMultiHopQA* | 2020 | COLING | Has explicit reasoning paths — lets us evaluate the KG, not just the answer |
-| 3.9 | Es et al., *RAGAS: Automated Evaluation of RAG* | 2024 | EACL | Faithfulness / answer-relevance / context-precision metrics |
-| 3.10 | Saad-Falcon et al., *ARES: Automated Evaluation Framework for RAG* | 2024 | NAACL | Adds confidence intervals; use for the final table |
-| 3.11 | Liu et al., *Lost in the Middle* | 2024 | TACL | Why context ordering changes results — affects every number S6 reports |
-
-### P2 datasets
-
-| Dataset | Year | Use | Source |
-|---|---|---|---|
-| **MuSiQue** | 2022 | Primary extrinsic benchmark (2–4 hop) | <https://github.com/StonyBrookNLP/musique> |
-| **2WikiMultiHopQA** | 2020 | Secondary; reasoning-path supervision | <https://github.com/Alab-NII/2wikimultihop> |
-| HotpotQA | 2018 | Warm-up / debugging | <https://hotpotqa.github.io/> |
-| CRAG | 2024 | Robustness to noisy retrieval | <https://github.com/facebookresearch/CRAG> |
-| STaRK | 2024 | If we add a product/biomed domain | <https://github.com/snap-stanford/stark> |
-| UltraDomain | 2024 | Used by LightRAG/GraphRAG — needed for fair comparison | released with LightRAG |
