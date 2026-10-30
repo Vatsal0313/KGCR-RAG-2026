@@ -5,6 +5,13 @@
   Agenda:
   - Short technical presentation related to reproducing the model.
   - Discuss the results and findings
+
+## Materials
+- Presentation templates:
+  - [PPT](https://github.com/dice-group/KGCR-RAG-2026/blob/main/DICE%20Power%20Point%20Design%20NEW.pptx)
+  - [Latex](https://github.com/dice-group/KGCR-RAG-2026/blob/main/DICE_presentation_template_in_latex.zip) 
+- Report template:
+  LNCS [https://www.overleaf.com/latex/templates/springer-lecture-notes-in-computer-science/kzwwpvhwnvfj](https://www.overleaf.com/latex/templates/springer-lecture-notes-in-computer-science/kzwwpvhwnvfj)
      
 ## KGCR-RAG PG Two-Weekly Tasks Summary
 
