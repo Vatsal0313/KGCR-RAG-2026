@@ -9,9 +9,11 @@ Task objective: Share your progress at this link: <https://umfragen.uni-paderbor
 Task objective: 
 - Please choose one paper out of the two selected papers
 - Find the model and the datasets
-- Reproduce the model
+- Reproduce the model and run it
 - Evaluate the model on the dataset
 - Investigate how the model works
 - Investigate how the model is evaluated on the dataset
+- Investigate the results and try to find the limitations of the approach.
+- Investigate how to address the limitations
 - Create a brief technical report in PDF, including a discussion of the results and findings. 
 - Share your progress and submit your report at this link: <https://umfragen.uni-paderborn.de/index.php/563876?lang=en>
