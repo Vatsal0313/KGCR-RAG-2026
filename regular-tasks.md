@@ -6,7 +6,8 @@ Note: If you need to have an in-person/group discussion, you can ping me on Elem
 Task objective: Share your progress at this link: <https://umfragen.uni-paderborn.de/index.php/563876?lang=en>
 
 ## Task 2 (Thursday, 29 October - 11 November 2026)
-Task objective: 
+Task objective: gain experience by reproducing and investigating the approach. 
+To do:
 - Please choose one paper out of the two selected papers
 - Find the model and the datasets
 - Reproduce the model and run it
