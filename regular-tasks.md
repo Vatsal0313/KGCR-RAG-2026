@@ -13,5 +13,5 @@ Task objective:
 - Evaluate the model on the dataset
 - Investigate how the model works
 - Investigate how the model is evaluated on the dataset
-- Create a technical report and discuss the results
-- Share your progress at this link: <https://umfragen.uni-paderborn.de/index.php/563876?lang=en>
+- Create a brief technical report in PDF, including a discussion of the results and findings. 
+- Share your progress and submit your report at this link: <https://umfragen.uni-paderborn.de/index.php/563876?lang=en>
