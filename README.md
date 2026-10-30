@@ -1,9 +1,11 @@
 # Welcome to the KG Construction, Reasoning, and RAG Project Group (KGR-RAG PG)
 
 ## Next meeting:
-- Thursday, 29 October 2026, PG Meeting, in room FU.519 from 14:30 to 16:30.
-  (Please contact me by email if you have not received the invitation to join the KGCR-RAG element chat group yet)
-
+- Thursday, 12 November 2026, PG Meeting, in room FU.519 from 14:30 to 16:30.
+  Agenda:
+  - Short technical presentation related to reproducing the model.
+  - Discuss the results and findings
+     
 ## KGCR-RAG PG Two-Weekly Tasks Summary
 
 Visit this [link](https://github.com/dice-group/KGCR-RAG-2026/blob/main/regular-tasks.md) for the regular task for the details
