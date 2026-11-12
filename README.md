@@ -18,7 +18,7 @@
 Visit this [link](https://github.com/dice-group/KGCR-RAG-2026/blob/main/regular-tasks.md) for the regular task for the details
 
 ## Short Technical Report Template
-### [Formal Title: e.g., Reproducing [System Name] Under Resource Constraints]
+### [Formal Title: e.g., Reproducing [Model Name]]
 
 **Author:** [Full Name] ([Matriculation Number])  
 **Affiliation:** [Project Group / Department, University]  
