@@ -18,6 +18,8 @@ To do:
 - Create a brief technical report in PDF, including a discussion of the results and findings. 
 - Share your progress and submit your report at this link: <https://umfragen.uni-paderborn.de/index.php/563876?lang=en>
 
+Note: Create your branch in our GitHub repo and upload your reproduced model. 
+
 ## Task 3 (Thursday, 12 November - 26 November 2026)
 Task objective: To gain experience working in a team, develop and deploy a simulation using existing methods that have already been reproduced
 To do:
