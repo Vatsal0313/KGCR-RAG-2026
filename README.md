@@ -29,7 +29,7 @@ Visit this [link](https://github.com/dice-group/KGCR-RAG-2026/blob/main/regular-
 
 ---
 
-### 1. Introduction and System Overview
+### 1. Introduction and Overview of an Approach or Model
 [Paragraph 1: Context and objective. Introduce the original work [1], its core claim, and the goal of this reproduction study.]
 
 [Paragraph 2: System architecture. Describe the pipeline stages objectively in prose, referencing a figure or compact table.]
