@@ -25,7 +25,7 @@ Task objective: To gain experience working in a team, develop and deploy a simul
 To do:
 - Create three groups that contain 2/3 persons in each group
 - Choose a topic (KG construction, Incremental KG Construction, KG-Reasoning & RAG)
-- Create a web simulation for each topic using an existing approach
+- Create a web-based simulation for each topic using an existing approach
   - The goal is that, with this simulation, we can have a better understanding of the topic
   - To discover more findings or limitations qualitatively from the approach that was used
   - To gain what we can improve for future work
