@@ -59,9 +59,6 @@ Visit this [link](https://github.com/dice-group/KGCR-RAG-2026/blob/main/regular-
 
 #### Error Analysis
 [Group observed failures into 2–4 distinct analytical categories with concrete examples:]
-* **Category 1 ([e.g., Granularity / Typing Errors]):** [Explanation + specific example from evaluation.]
-* **Category 2 ([e.g., Missing Relational / Temporal Context]):** [Explanation + specific example from evaluation.]
-* **Category 3 ([e.g., Retrieval / Fallback Bottlenecks]):** [Explanation + specific example from evaluation.]
 
 ---
 
