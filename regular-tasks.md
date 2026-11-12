@@ -19,8 +19,12 @@ To do:
 - Share your progress and submit your report at this link: <https://umfragen.uni-paderborn.de/index.php/563876?lang=en>
 
 ## Task 3 (Thursday, 12 November - 26 November 2026)
-Task objective: Teamwork and develop a simulation using existing methods that have already been reproduced
+Task objective: To gain experience working in a team, deploy and develop a simulation using existing methods that have already been reproduced
 To do:
 - Create three groups that contain 2/3 persons in each group
-- Choose a topic (KG construction, Incremental KG Construction, KG-Reasoning and RAG)
+- Choose a topic (KG construction, Incremental KG Construction, KG-Reasoning & RAG)
 - Create a web simulation for each topic using an existing approach
+  - The goal is that, with this simulation, we can have a better understanding of the topic
+  - To discover more findings or limitations qualitatively from the approach that was used
+  - To gain what we can improve for future work
+ - Share your progress and submit your report at this link: <https://umfragen.uni-paderborn.de/index.php/563876?lang=en>  
