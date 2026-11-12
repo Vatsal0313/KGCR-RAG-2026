@@ -17,3 +17,10 @@ To do:
 - Investigate the results and try to find the limitations of the approach.
 - Create a brief technical report in PDF, including a discussion of the results and findings. 
 - Share your progress and submit your report at this link: <https://umfragen.uni-paderborn.de/index.php/563876?lang=en>
+
+## Task 3 (Thursday, 12 November - 26 November 2026)
+Task objective: Teamwork and develop a simulation using existing methods that have already been reproduced
+To do:
+- Create three groups that contain 2/3 persons in each group
+- Choose a topic (KG construction, Incremental KG Construction, KG-Reasoning and RAG)
+- Create a web simulation for each topic using an existing approach
